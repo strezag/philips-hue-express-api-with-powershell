@@ -1,0 +1,21 @@
+{
+  "name": "hue-express-node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "startforever": "forever start index.js"
+  },
+  "author": "Gabriel Streza",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-mongoose-docs": "^0.3.2",
+    "forever": "^3.0.4",
+    "node-hue-api": "^4.0.9"
+  }
+}
